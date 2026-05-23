@@ -1,0 +1,10 @@
+[
+  { "id": 1, "tittle": "Nasi Goreng Spesial", "code": "FD001", "category": "Food", "brand": "Sedap Kitchen", "price": 25000, "stock": 50, "image": "/img/nasiGoreng.jpg" },
+  { "id": 2, "tittle": "Mie Goreng Jawa", "code": "FD002", "category": "Food", "brand": "Sedap Kitchen", "price": 22000, "stock": 45, "image": "/img/mieGoreng.jpg" },
+  { "id": 3, "tittle": "Ayam Bakar Madu", "code": "FD003", "category": "Food", "brand": "Sedap Kitchen", "price": 35000, "stock": 30, "image": "/img/AyamBakarMadu.jpg" },
+  { "id": 4, "tittle": "Sate Ayam 10 Tusuk", "code": "FD004", "category": "Food", "brand": "Sedap Kitchen", "price": 30000, "stock": 25, "image": "/img/SateAyam.jpg" },
+  { "id": 5, "tittle": "Es Teh Manis", "code": "DR001", "category": "Drink", "brand": "Fresh Brew", "price": 5000, "stock": 100, "image": "/img/esTeh.jpg" },
+  { "id": 6, "tittle": "Es Jeruk Peras", "code": "DR002", "category": "Drink", "brand": "Fresh Brew", "price": 8000, "stock": 80, "image": "/img/esJeruk.jpg" },
+  { "id": 7, "tittle": "Jus Alpukat", "code": "DR003", "category": "Drink", "brand": "Fresh Brew", "price": 15000, "stock": 40, "image": "/img/jusAlpukat.jpg" },
+  { "id": 8, "tittle": "Kopi Susu Gula Aren", "code": "DR004", "category": "Drink", "brand": "Coffee Station", "price": 18000, "stock": 60, "image": "/img/kopiSusu.jpg" }
+]

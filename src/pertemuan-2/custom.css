@@ -1,0 +1,96 @@
+/* Import Font: Playfair Display (Serif Elegan) & Jost (Sans-serif Modern) */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+body {
+    background: #fffcf9; /* Warna cream mutiara */
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 450px;
+    width: 100%;
+    background: #ffffff;
+    padding: 60px 40px;
+    border-radius: 50px; /* Sangat bulat & cute */
+    text-align: center; /* Memastikan semua teks di tengah */
+    
+    /* Shadow berlapis untuk kesan "Deep & Soft" */
+    box-shadow: 
+        0 20px 40px rgba(225, 177, 193, 0.15),
+        0 10px 10px rgba(0, 0, 0, 0.02);
+    
+    border: 1px solid rgba(255, 235, 238, 0.8);
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+/* Judul (Nama) - Dibuat sangat menonjol dan presisi di tengah */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #a87676;
+    font-size: 2.8rem;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Jarak antara teks dan garis hiasan */
+}
+
+/* Hiasan garis di kiri dan kanan nama agar makin "center-focused" */
+h1::before, h1::after {
+    content: "";
+    height: 1px;
+    width: 30px;
+    background: #e1b1c1;
+    display: inline-block;
+}
+
+p {
+    font-size: 16px;
+    color: #8d8d8d;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 40px; /* Pendek saja di tengah */
+    background: #d8819d;
+    margin: 20px auto;
+    opacity: 0.3;
+}
+
+small {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #c0c0c0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/* Ornamen melayang kecil untuk kesan estetik */
+.card::before {
+    content: "✿";
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffd1dc;
+    font-size: 20px;
+}
+
+/* Efek hover yang lebih sinematik */
+.card:hover {
+    transform: scale(1.02) translateY(-10px);
+    box-shadow: 0 40px 80px rgba(225, 177, 193, 0.25);
+}
